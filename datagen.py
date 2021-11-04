@@ -1,6 +1,6 @@
 import os
-path0 = r'E:\cup'
-path1 = r'E:\temp'
+path0 = r'E:\Diansai\New folder\train'
+path1 = r'E:\temp1'
 for root,ds,filenames in os.walk(path0,followlinks=True):
     for filename in filenames:
         filepath=os.path.join(root,filename)
@@ -8,7 +8,7 @@ for root,ds,filenames in os.walk(path0,followlinks=True):
         newfile=open(filename,'w',encoding='UTF-8')
         for line in file.readlines():
             strs = line.strip().split(" ")
-            strs[0]="2"
+            strs[0]="0"
             newline='{0} {1} {2} {3} {4}\n'.format(strs[0], strs[1], strs[2], strs[3], strs[4])
             newfile.writelines(newline)
         print(filename)

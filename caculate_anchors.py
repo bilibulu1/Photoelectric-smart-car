@@ -6,14 +6,14 @@ import numpy as np
 import xml.etree.cElementTree as et
 from kmeans import kmeans, avg_iou
 
-FILE_ROOT = "E:/labelImage/garbage/"     # 根路径
+FILE_ROOT = "E:/Diansai/labels/aa/"     # 根路径
 ANNOTATION_ROOT = "labels"  # 数据集标签文件夹路径
 ANNOTATION_PATH = FILE_ROOT + ANNOTATION_ROOT
 
 ANCHORS_TXT_PATH = "E:/yolov5-master/data/anchors.txt"
 
 CLUSTERS = 9
-CLASS_NAMES = ['A4', 'Origin', 'Cup', 'Bottle', 'Battery']
+CLASS_NAMES = ['pencil']
 
 def load_data(anno_dir, class_names):
     xml_names = os.listdir(anno_dir)
