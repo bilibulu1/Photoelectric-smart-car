@@ -1,5 +1,5 @@
 import os
-path0 = r'E:\Diansai\New folder\train'
+path0 = r'E:\aaa\labels'
 path1 = r'E:\temp1'
 for root,ds,filenames in os.walk(path0,followlinks=True):
     for filename in filenames:
