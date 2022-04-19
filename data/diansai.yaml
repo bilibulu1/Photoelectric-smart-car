@@ -1,0 +1,8 @@
+train: E:\Diansai\images\train
+val: E:\Diansai\images\test
+
+# number of classes
+nc: 1
+
+# class names
+names: ['pencil']

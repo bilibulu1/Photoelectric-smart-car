@@ -1,0 +1,8 @@
+train: E:\labelImage\garbage\images\train
+val: E:\labelImage\garbage\images\test
+
+# number of classes
+nc: 5
+
+# class names
+names: ['A4', 'Origin', 'Cup', 'Bottle', 'Battery']
