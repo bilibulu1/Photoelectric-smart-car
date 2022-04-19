@@ -25,6 +25,7 @@
 
 storage.googleapis.com
 runs/*
+
 pycocotools/*
 results*.txt
 gcp_test*.sh
@@ -34,6 +35,7 @@ coco/
 coco128/
 VOC/
 Diansai/
+
 # MATLAB GitIgnore -----------------------------------------------------------------------------------------------------
 *.m~
 *.mat
